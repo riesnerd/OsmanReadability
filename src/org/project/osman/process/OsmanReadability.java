@@ -5,7 +5,7 @@ import java.io.OutputStream;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import org.apache.commons.lang.StringUtils;
-import com.qcri.farasa.diacritize.RunFarasa;
+// import com.qcri.farasa.diacritize.RunFarasa;
 /*
 import java.io.File;
 import java.io.IOException;
@@ -360,9 +360,10 @@ public class OsmanReadability {
 	 */
 	public  String addTashkeel (String text) throws ClassNotFoundException, Exception {
 		
-		String tashkeelUTF8 = RunFarasa.runFarasa(text);
-		
-return tashkeelUTF8;
+		// String tashkeelUTF8 = RunFarasa.runFarasa(text);
+		String tashkeelUTF8 = text;
+				
+                return tashkeelUTF8;
 	}
 	
 
